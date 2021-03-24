@@ -1,0 +1,36 @@
+@babel-core is a dependency that transforms modern javascript into old javascript
+in order to get all broswers able to execute our code.
+
+@babel-preset-env is a set of plugins for babel, since babel works with plugins
+that establish how the code has to be transformed preset-env provides with a
+series of plugins already installed.
+
+babel-loader allows configure babel from webpack
+
+clean-webpack-plugin as its name stands, when it is time to bundle, it's
+gonna clean the previous output folder, and only then bundle our files
+
+The css-loader interprets @import and url() like import/require() and will resolve them.
+
+dat.GUI is a lightweight graphical user interface for changing variables in JavaScript.
+
+The file-loader resolves import/require() on a file into a url and emits the file into the output directory.
+
+The html-loader exports HTML as string. HTML is minimized when the compiler demands.
+
+The HtmlWebpackPlugin simplifies creation of HTML files to serve your webpack bundles. This is especially useful for webpack bundles that include a hash in the filename which changes every compilation
+
+The MiniCssExtractPlugin extracts CSS into separate files. It creates a CSS file per JS file which contains CSS. It supports On-Demand-Loading of CSS and SourceMaps.
+It is necessary to load the loader and the plugin
+
+portfinder-sync find an open port to run our server
+
+raw-loader is a loader for webpack that allows importing files as a String.
+
+The style loader takes CSS and actually inserts it into the page so that the styles are active on the page.
+
+webpack-merge provides a merge function that concatenates arrays and merges objects creating a new object. If functions are encountered, it will execute them, run the results through the algorithm, and then wrap the returned values within a function again.
+
+Webpack-copy-plugin copies individual files or entire directories, which already exist, to the build directory.
+
+
